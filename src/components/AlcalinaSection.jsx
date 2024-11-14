@@ -13,7 +13,7 @@ export function AlcalinaSection(){
                 <p className="font-inter text-gray-200 text-lg text-center">Mascote do Projeto Alcalina contra poluição
                 idealizado pela professora Ramayana Pereira e os alunos Diogo Graciano, Gabriel Graciano, Ícaro Emanuel, João Pedro Tito e Kesley Rainery, do curso de<span className="text-orange-300"> Análise e Desenvolvimento de Sistemas</span> da UNINASSAU Campina Grande
                 </p>
-                <div className="flex items-center gap-1 text-gray-200 hover:text-orange-500 transition-all duration-300 ease-in-out">
+                <div className="flex items-center gap-1 text-gray-200 hover:text-orange-500 hover:border-orange-500 border-2 border-gray-200 rounded-full px-3 py-2 transition-all duration-300 ease-in-out">
                     <CiInstagram className="text-2xl"/>
                     <a className="text-xl" target="_blank" href="https://www.instagram.com/ads.uninassau.cg?igsh=bnoweXN0Z3U5bDc0">
                     Instagram

@@ -1,6 +1,9 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import teamImage from "../assets/equipe.jpeg"
+import teamImage from '../assets/gallery/equipe.jpeg'
+import teamImage2 from '../assets/gallery/grupo2.jpg'
+import projectImage from '../assets/gallery/projeto03.jpg'
+import teamImage3 from '../assets/gallery/turma01.jpg'
 import { useState, useEffect } from 'react';
 
 
@@ -13,7 +16,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
-import { EffectCards, EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 
 
@@ -23,9 +26,9 @@ export function GallerySection(){
     const [slidePerView, setSlidePerView] = useState(2)
     const slideData = [
         {id: '1', image: teamImage},
-        {id: '2', image: teamImage},
-        {id: '3', image: teamImage},
-        {id: '4', image: teamImage},
+        {id: '2', image: projectImage},
+        {id: '3', image: teamImage2},
+        {id: '4', image: teamImage3},
     ]
 
     useEffect(() => {

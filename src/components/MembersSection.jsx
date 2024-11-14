@@ -1,11 +1,20 @@
-import kael from '../assets/kael.jpg'
+import kael from '../assets/members/kael.jpg'
+import diogo from '../assets/members/diogo.jpg'
+import icaro from '../assets/members/icaro.jpg'
+import tito from '../assets/members/tito.jpg'
+import ramayana from '../assets/members/ramayana.jpg'
+import gabriel from '../assets/members/gabriel.jpg'
+
 export function MembersSection(){
     const membersData = [
-        {id: '1',image: kael, name: "Kesley", description:"Gosta de jogos e de programar"},
-        {id: '2',image: kael, name: "Ícaro", description:"Gosta de jogos e de programar"},
-        {id: '3',image: kael, name: "Diogo", description:"Gosta de jogos e de programar"},
-        {id: '4',image: kael, name: "Gabriel", description:"Gosta de jogos e de programar"},
-        {id: '5',image: kael, name: "Tito", description:"Gosta de jogos e de programar"},
+        {id: '1',image: ramayana, name: "Ramayana", description:"Orientadora do Projeto"},
+        {id: '2',image: kael, name: "Kesley", description:"Lider do Projeto"},
+        {id: '3',image: icaro, name: "Ícaro", description:"Game Developer"},
+        {id: '4',image: diogo, name: "Diogo", description:"Fullstack Developer"},
+        {id: '5',image: gabriel, name: "Gabriel", description:"Game Designer"},
+        {id: '6',image: tito, name: "Tito", description:"Game Developer"},
+
+
 
     ]
     return(

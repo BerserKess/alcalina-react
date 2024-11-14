@@ -11,7 +11,7 @@ export default {
         'inter':["Inter", "sans-serif"]
       },
       screens: {
-        'custom': '1006px'
+        'custom': '1007px'
       }
     },
   },
